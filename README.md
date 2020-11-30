@@ -1,4 +1,6 @@
-<title>Witaj na mojej stronie testowej!</title>
+<head>
+  <title>Witaj na mojej stronie testowej!</title>
+</head>
 # bartosz-lesniewski.github.io
 
 [test](./test.md)
