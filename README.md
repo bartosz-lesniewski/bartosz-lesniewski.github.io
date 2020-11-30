@@ -1,4 +1,4 @@
-<header> Witajcie na mojej stronie! </header>
+% Witajcie na mojej stronie!
 
 # Test1
 ## Test2
