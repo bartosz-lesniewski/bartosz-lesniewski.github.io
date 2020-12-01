@@ -1,0 +1,152 @@
+.top-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  box-shadow: 2px 3px 0px 0px #d1d1d1;
+  background: linear-gradient(to bottom, #f5f5fa 5%, #f0f0f3 100%);
+  background-color: #f5f5fa;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  position: relative;
+  left: 700px;
+}
+.link:hover {
+  background: linear-gradient(to bottom, #f0f0f3 5%, #f5f5fa 100%);
+  background-color: #f0f0f3;
+}
+.link:active {
+  position: relative;
+  top: 1px;
+}
+
+.menu-left {
+  margin-top: 30px;
+  position: relative;
+  left: 70px;
+}
+
+.fb {
+  margin-top: 35px;
+  position: absolute;
+  left: 1800px;
+}
+
+body {
+  background-color: #f0f0f3;
+}
+
+p {
+  font-family: monospace;
+  font-size: 15px;
+}
+/* slider */
+
+* {
+  box-sizing: border-box;
+}
+
+.slide-con {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* .slide-container {
+  display: none;
+} 
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #f0f0f3;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  text-align: center;
+}
+
+.slide-num {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
