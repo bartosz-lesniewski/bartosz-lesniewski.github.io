@@ -1,27 +1,47 @@
 <!DOCTYPE html>
+<html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Let's learn some Front-end!</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <div id="top-container">   
-    <a href="mailto:b.lesniewski8@gmail.com" class="mail" >Bartosz Leśniewski</p>
-    <a href="https://www.facebook.com/b.lesniewski" target="_blank" class="fb"><img alt="facebook" src="/img/fb.svg" width="34" height="24"></a>
-  </div>
-  <header>
-    <nav>
-    <a href="/img/dribbble.com_shots_14655440-3D-lettering-web-site_attachments_6351004_mode=media.png" target="_blank" class="link">LAYOUT 1</a>
-    <a href="/img/dribbble.com_shots_14672307-OWLEE-Social-Media-Concept.png" target="_blank" class="link">LAYOUT 2</a>
-    <a href="/img/www.fru.it_.png" target="_blank" class="link">LAYOUT 3</a>
-  </nav>
-  </header>
-<div id="slide-con">
-  <img src="/img/dribbble.com_shots_14655440-3D-lettering-web-site_attachments_6351004_mode=media.png" style="width: 100%;">
-  <img src="/img/dribbble.com_shots_14672307-OWLEE-Social-Media-Concept.png" style="width: 100%;">
-  <img src="/img/www.fru.it_.png" style="width: 100%;">
-</div> 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's learn some Front-end!</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="top-container">   
+      <a href="mailto:b.lesniewski8@gmail.com" class="mail" >Bartosz Leśniewski</a>
+      <a href="https://www.facebook.com/b.lesniewski" target="_blank" class="fb"><img alt="facebook" src="/img/fb.svg" width="34" height="24"></a>
+    </div>
+    <header>
+      <nav>
+        <a href="#s1" class="link">LAYOUT 1</a>
+        <a href="#s2" class="link">LAYOUT 2</a>
+        <a href="#s3" class="link">LAYOUT 3</a>
+      </nav>
+    </header>
 
 <!-- SLIDER -->
+
+    <div class="CSSgal">
+      <s id="s1"></s> 
+      <s id="s2"></s>
+      <s id="s3"></s>
+      <div class="slider">
+        <div style="background:#f0f0f3;">
+		      <img src="/img/dribbble.com_shots_14672307-OWLEE-Social-Media-Concept.png" alt="Layout 1 pic">
+		    </div>
+        <div style="background:#f0f0f3;">
+	        <img src="/img/dribbble.com_shots_14655440-3D-lettering-web-site_attachments_6351004_mode=media.png" alt="Layout 2 pic">
+		    </div>
+        <div style="background:#f0f0f3;">
+		      <img src="/img/www.fru.it_.png" alt="Layout 3 pic">
+		    </div>
+      </div>
+      <div class="prevNext">
+        <div><a href="#s3"></a><a href="#s2"></a></div>
+        <div><a href="#s1"></a><a href="#s3"></a></div>
+        <div><a href="#s2"></a><a href="#s1"></a></div>
+      </div>
+    </div>
+  </body>
+</html>
