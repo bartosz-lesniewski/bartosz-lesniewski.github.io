@@ -10,7 +10,7 @@ function App() {
         <h1>Hi,</h1>
       </main>
       <footer>
-        <h3 className="h3-footer">site is under construction</h3>
+        <h3 className="h3-footer" title="site is under construction">site is under construction</h3>
       </footer>
     </div>
   );
