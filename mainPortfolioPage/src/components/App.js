@@ -3,8 +3,15 @@ import "../styles/app.css"
 function App() {
   return (
     <div className="main-container">
-    <h1>Hi, my name is Bartosz Leśniewski</h1>
-    <h2>and I am front-end developer.</h2>
+      <header></header>
+      <main>
+        <h3>and I am front-end developer.</h3>
+        <h2>my name is Bartosz Leśniewski</h2>
+        <h1>Hi,</h1>
+      </main>
+      <footer>
+        <h3 className="h3-footer">site is under construction</h3>
+      </footer>
     </div>
   );
 }
