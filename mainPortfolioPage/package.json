@@ -2,7 +2,7 @@
   "name": "mainPortfolioPage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bartosz-lesniewski.github.io/mainPortfolioPage/public/index.html",
+  "homepage": "https://bartosz-lesniewski.github.io/bartosz-lesniewski.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
