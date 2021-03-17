@@ -1,12 +1,20 @@
+import React from "react";
 import "./styles/header.css";
+import { Link } from "react-router-dom";
 
 function Nav() {
 	return (
 		<nav>
 			<ul>
-				<li>top</li>
-				<li>work</li>
-				<li>about</li>
+				<Link style={{ textDecoration: "none", color: "silver" }} to="/">
+					<li>home</li>
+				</Link>
+				<Link style={{ textDecoration: "none", color: "silver" }} to="/work">
+					<li>work</li>
+				</Link>
+				<Link style={{ textDecoration: "none", color: "silver" }} to="/about">
+					<li>about</li>
+				</Link>
 				<li>contact</li>
 				<li>
 					<svg

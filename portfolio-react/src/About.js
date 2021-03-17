@@ -1,5 +1,7 @@
+import React from "react";
+
 function About() {
-	return null;
+	return <p>about</p>;
 }
 
 export default About;

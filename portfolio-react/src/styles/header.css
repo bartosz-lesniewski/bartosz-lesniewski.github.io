@@ -1,6 +1,6 @@
 ul {
 	display: flex;
-	list-style: none;
+	list-style-type: none;
 	justify-content: space-around;
 	margin: 3vh 10vw 0 57.2vw;
 	font-size: 17px;

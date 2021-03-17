@@ -1,5 +1,7 @@
+import React from "react";
+
 function Work() {
-	return null;
+	return <p>work</p>;
 }
 
 export default Work;
