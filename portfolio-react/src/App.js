@@ -1,11 +1,15 @@
 import "./styles/app.css";
+import { BrowseRouter as Router, Switch, Route } from "react-router-dom";
+import Nav from "./Nav";
 
 function App() {
 	return (
 		<div className="main-container">
-			<header></header>
+			<header>
+				<Nav />
+			</header>
 			<main>
-				<h3>and I am front-end developer.</h3>
+				<h3>and I am Junior Front-end Developer.</h3>
 				<h2>my name is Bartosz Leśniewski</h2>
 				<h1>Hi,</h1>
 			</main>
