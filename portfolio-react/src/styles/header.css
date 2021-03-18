@@ -6,3 +6,23 @@ ul {
 	font-size: 17px;
 	color: silver;
 }
+
+ul li a {
+	text-decoration: none;
+}
+
+ul li a:link {
+	color: silver;
+}
+
+ul li a:hover {
+	color: black;
+}
+
+.link-style:hover {
+	color: black !important;
+}
+
+svg:hover {
+	fill: white;
+}

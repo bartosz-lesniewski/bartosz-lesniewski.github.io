@@ -23,7 +23,7 @@ body:after {
 	top: -100%;
 	left: -50%;
 	opacity: 0.15;
-	position: fixed;
+	position: relative;
 }
 
 @keyframes grain {
