@@ -14,7 +14,8 @@ body {
 	height: 97vh;
 }
 
-/* body:after {
+body:after {
+	z-index: -1;
 	content: "";
 	animation: grain 8s steps(10) infinite;
 	background-image: url("../img/paper_1_grainy_texture_to_background.png");
@@ -23,7 +24,7 @@ body {
 	top: -100%;
 	left: -50%;
 	opacity: 0.15;
-	position: relative;
+	position: fixed;
 }
 
 @keyframes grain {
@@ -58,4 +59,4 @@ body {
 	90% {
 		transform: translate(-10%, 10%);
 	}
-} */
+}

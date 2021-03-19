@@ -6,12 +6,12 @@ function About() {
 			<h1>about</h1>
 			<p>
 				I am junior frontend developer, and I'm looking to collaborate with
-				JavaScript/React projects.
+				JavaScript/React projects. Currently I'm learning three.js.
 			</p>
 			<p>Based Warsaw, Poland</p>
 			<p>
-				If you like to contact with me, you have my mail, linkedin and github
-				accounts in the top right.
+				If you like what you see, please contact with me. You have my email,
+				linkedin and github accounts in the top right.
 			</p>
 			<p>
 				thanks for visit my site, it will look better and better every day! ;)
