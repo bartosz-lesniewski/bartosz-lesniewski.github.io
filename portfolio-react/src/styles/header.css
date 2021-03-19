@@ -7,6 +7,18 @@
 		margin: 4vh 8vw 0 60vw;
 	}
 }
+
+/* basic settings */
+
+ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	margin: 3vh 10vw 0 57.2vw;
+	font-size: 17px;
+	color: silver;
+}
+
 /* tablets */
 
 @media only screen and (max-width: 768px) {
@@ -23,15 +35,6 @@
 }
 
 /*** responsive ends ***/
-
-ul {
-	display: flex;
-	list-style-type: none;
-	justify-content: space-around;
-	margin: 3vh 10vw 0 57.2vw;
-	font-size: 17px;
-	color: silver;
-}
 
 ul li a {
 	text-decoration: none;

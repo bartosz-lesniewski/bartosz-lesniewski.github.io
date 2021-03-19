@@ -8,23 +8,7 @@
 	}
 }
 
-/* phones */
-
-@media only screen and (max-width: 414px) {
-	body {
-		height: 97.5vh;
-	}
-}
-
-/* tablets */
-
-@media only screen and (max-width: 768px) {
-	body {
-		height: 96.5vh;
-	}
-}
-
-/*** responsive ends ***/
+/* basic settings */
 
 body {
 	margin: 0;
@@ -41,6 +25,24 @@ body {
 	);
 	height: 97vh;
 }
+
+/* tablets */
+
+@media only screen and (max-width: 768px) {
+	body {
+		height: 96.5vh;
+	}
+}
+
+/* phones */
+
+@media only screen and (max-width: 414px) {
+	body {
+		height: 97.5vh;
+	}
+}
+
+/*** responsive ends ***/
 
 body:after {
 	z-index: -1;
