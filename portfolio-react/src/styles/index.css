@@ -1,3 +1,31 @@
+/* responsive */
+
+/* 1920x1080 */
+
+@media only screen and (max-width: 1920px) {
+	body {
+		height: 96vh;
+	}
+}
+
+/* phones */
+
+@media only screen and (max-width: 414px) {
+	body {
+		height: 97.5vh;
+	}
+}
+
+/* tablets */
+
+@media only screen and (max-width: 768px) {
+	body {
+		height: 96.5vh;
+	}
+}
+
+/*** responsive ends ***/
+
 body {
 	margin: 0;
 	padding: 0;

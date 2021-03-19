@@ -1,3 +1,80 @@
+/* responsive */
+
+/* 1920x1080 */
+
+@media only screen and (max-width: 1920px) {
+	main,
+	h1 h2 h3 {
+		margin: 0 10em 0 12.5em;
+	}
+	.h3-footer {
+		margin: 12em 15em 0 10em;
+	}
+}
+/* laptops */
+
+@media only screen and (max-width: 1280px) {
+	.h3-footer {
+		margin: 12em 7em 0 10em;
+	}
+}
+/* tablets */
+
+@media only screen and (max-width: 768px) {
+	main,
+	h1 h2 h3 {
+		margin: 1em 4em 1em 4em;
+	}
+
+	h1 {
+		font-size: 3em;
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 2.5em;
+		margin: 0;
+	}
+
+	h3 {
+		font-size: 2em;
+		margin: 0;
+	}
+	.h3-footer {
+		font-size: 1.6em;
+		margin: 10em 4em 2em 4em;
+	}
+}
+/* phones */
+
+@media only screen and (max-width: 414px) {
+	main,
+	h1 h2 h3 {
+		margin: 1em 2em 1em 2em;
+	}
+
+	h1 {
+		font-size: 2em;
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 1.2em;
+		margin: 0;
+	}
+
+	h3 {
+		font-size: 0.9em;
+		margin: 0;
+	}
+	.h3-footer {
+		font-size: 1.6em;
+		margin: 6em 0.1em 2em 7em;
+	}
+}
+
+/*** responsive ends ***/
+
 main,
 h1 h2 h3 {
 	display: flex;
