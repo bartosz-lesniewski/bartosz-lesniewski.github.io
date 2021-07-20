@@ -1,0 +1,6 @@
+p, a {
+	text-decoration: none;
+    color: silver;
+}
+
+p, a:hover {color: black;}

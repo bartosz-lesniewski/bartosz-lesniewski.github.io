@@ -6,7 +6,7 @@ function About() {
 			<h1>about</h1>
 			<p>
 				I am junior frontend developer, and I'm looking to collaborate with
-				JavaScript/React projects. Currently I'm learning three.js.
+				JavaScript/React projects.
 			</p>
 			<p>Based Warsaw, Poland</p>
 			<p>
