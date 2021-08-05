@@ -13,9 +13,7 @@ function About() {
         If you like what you see, please contact with me. You have my email,
         linkedin and github accounts in the top right.
       </p>
-      <p className="about__paragraph">
-        thanks for visit my site, it will look better and better every day! ;)
-      </p>
+      <p className="about__paragraph">thanks for visit my site.</p>
     </div>
   );
 }

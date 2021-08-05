@@ -1,16 +1,7 @@
 import React from 'react';
-import './styles/header.css';
 import { Link } from 'react-router-dom';
 
 function Nav() {
-  // const linkStyle = {
-  //   color: 'silver',
-  //   textDecoration: 'none',
-  //   '&:hover': {
-  //     color: 'black',
-  //   },
-  // };
-
   return (
     <nav className="header__nav nav">
       <ul className="nav__list">
@@ -25,7 +16,7 @@ function Nav() {
         </Link>
         <li className="nav__element">
           <a className="text-decoration" href="mailto:b.lesniewski8@gmail.com">
-            mail me
+            contact
           </a>
         </li>
         <li className="nav__element">
@@ -34,6 +25,7 @@ function Nav() {
             target="_blank"
           >
             <svg
+              className="nav__svg"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -46,6 +38,7 @@ function Nav() {
         <li className="nav__element">
           <a href="https://github.com/bartosz-lesniewski" target="_blank">
             <svg
+              className="nav__svg"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
