@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,4BAA4B,CACzC,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,KAAK,CAAE,KAAK,CACb,AAGE,AAAD,UAAO,AAAC,CACN,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,GAAG,CAChB,AACA,AAAD,aAAU,AAAC,CACT,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,IAAI,CACjB,AAGH,AAAA,gBAAgB,AAAC,CACf,eAAe,CAAE,IAAI,CACtB,ACpBE,AAAD,YAAO,AAAC,CACN,SAAS,CAAE,IAAI,CAChB",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/_app.scss",
+        "../sass/_games.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

@@ -1,8 +1,4 @@
-/* responsive */
-
-/* 1920x1080 */
-
-@media only screen and (max-width: 1920px) {
+/* @media only screen and (max-width: 1920px) {
 	main,
 	h1 h2 h3 {
 		margin: 0 10em 0 12.5em;
@@ -12,7 +8,7 @@
 	}
 }
 
-/* basic settings */
+
 
 main,
 h1 h2 h3 {
@@ -43,11 +39,11 @@ h3 {
 	margin: 12em 9.5em 0 10em;
 	display: flex;
 	justify-content: flex-end;
-	/* font-style: italic; */
+
 	animation: glitch 1s linear infinite;
 }
 
-/* laptops */
+
 
 @media only screen and (max-width: 1280px) {
 	.h3-footer {
@@ -55,7 +51,7 @@ h3 {
 	}
 }
 
-/* tablets */
+
 
 @media only screen and (max-width: 768px) {
 	main,
@@ -82,7 +78,7 @@ h3 {
 		margin: 10em 4em 2em 4em;
 	}
 }
-/* phones */
+
 
 @media only screen and (max-width: 414px) {
 	main,
@@ -110,7 +106,7 @@ h3 {
 	}
 }
 
-/*** responsive ends ***/
+
 
 @keyframes glitch {
 	2%,
@@ -166,4 +162,4 @@ h3 {
 	62% {
 		transform: translate(-10px, 7px) skew(13deg);
 	}
-}
+} */

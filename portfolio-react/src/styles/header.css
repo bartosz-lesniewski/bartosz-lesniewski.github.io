@@ -1,6 +1,4 @@
-/* responsive */
-
-/* 1920x1080 */
+/* 
 
 @media only screen and (max-width: 1920px) {
 	ul {
@@ -8,7 +6,7 @@
 	}
 }
 
-/* basic settings */
+
 
 ul {
 	display: flex;
@@ -19,14 +17,14 @@ ul {
 	color: silver;
 }
 
-/* tablets */
+
 
 @media only screen and (max-width: 768px) {
 	ul {
 		margin: 2em 5em 0 2em;
 	}
 }
-/* phones */
+
 
 @media only screen and (max-width: 414px) {
 	ul {
@@ -34,7 +32,6 @@ ul {
 	}
 }
 
-/*** responsive ends ***/
 
 ul li a {
 	text-decoration: none;
@@ -54,4 +51,4 @@ ul li a:hover {
 
 svg:hover {
 	fill: white;
-}
+} */
