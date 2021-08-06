@@ -1,4 +1,38 @@
 .main__content {
-  display: flex;
-  flex-direction: column;
+  position: relative;
 }
+
+.main__leaf {
+  position: absolute;
+  left: 75%;
+  top: 15vh;
+  width: 15vw;
+  transform: rotate(320deg);
+}
+
+// .main__tree {
+//   position: absolute;
+//   left: 65%;
+//   top: 20vh;
+//   width: 30vw;
+// }
+
+// .main__clouds {
+//   position: absolute;
+//   width: 10vw;
+//   &:nth-child(2) {
+//     left: 79%;
+//     top: 34vh;
+//   }
+//   &:nth-child(3) {
+//     z-index: -1;
+//     left: 85%;
+//     top: 18vh;
+//   }
+
+//   &:nth-child(4) {
+//     z-index: -1;
+//     left: 65%;
+//     top: 17vh;
+//   }
+// }

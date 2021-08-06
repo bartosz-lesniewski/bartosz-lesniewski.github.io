@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Nav from './Nav';
 import Work from './Work';
 import About from './About';
+import leaf from './img/leaf.png';
+// import tree from './img/tree.png';
+// import cloud from './img/cloud.png';
 
 function App() {
   return (
@@ -18,12 +21,29 @@ function App() {
             <Route path="/work" component={Work} />
             <Route path="/about" component={About} />
           </Switch>
+          <div className="main__nature">
+            <img className="main__leaf" src={leaf}></img>
+            {/* <img className="main__tree" src={tree}></img>
+            <img
+              className="main__clouds"
+              ratioX="0.36"
+              ratioY="0.32"
+              src={cloud}
+            ></img>
+            <img
+              className="main__clouds"
+              ratioX="0.28"
+              ratioY="0.22"
+              src={cloud}
+            ></img>
+            <img
+              className="main__clouds"
+              ratioX="0.22"
+              ratioY="0.46"
+              src={cloud}
+            ></img> */}
+          </div>
         </main>
-        {/* <footer className="main__footer footer">
-          <h3 className="footer__h3" title="site is under construction">
-            site is under construction
-          </h3>
-        </footer> */}
       </div>
     </Router>
   );
