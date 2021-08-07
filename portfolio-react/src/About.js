@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <div className="about">
-      <h1 className="about__h1">about</h1>
+      <h1 className="about__h1">about.</h1>
       <p className="about__paragraph">
         I am junior frontend developer, and I'm looking to collaborate with
         JavaScript/React projects.
